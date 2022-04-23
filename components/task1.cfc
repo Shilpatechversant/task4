@@ -10,11 +10,4 @@
         </cfif>
             <cfcontinue>
 </cfloop>
-
-
-
-
-
-
-
 </cffunction>
