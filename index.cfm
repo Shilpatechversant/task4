@@ -27,8 +27,9 @@
                         </div>
                     </form>
                     <cfif isDefined("Data") AND NOT arrayIsEmpty(Data)>
+                           Result -
                         <cfloop array=#Data# index="i">
-                            <cfoutput> #i#, </cfoutput>
+                          <cfoutput> #i#, </cfoutput>
                         </cfloop>
                     </cfif>
                 </div>
